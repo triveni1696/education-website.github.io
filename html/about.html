@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education Portal</title>
+  <link rel="stylesheet" href="../css/style.css">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- header starts here  -->
+  <div class="sub-header">
+
+    <nav>
+      <div class="main-nav flex">
+        <a href="#" class="company-logo"><img src="../asset/logo.png" alt="logo img"></a>
+        <i class="fa fa-times" onclick="hiddenMenu()"></i>
+        <div class="nav-links">
+          <ul class="flex">
+            <li><a href="../html/index.html" class="hover-link">HOME</a> </li>
+            <li><a href="../html/about.html" class="hover-link">ABOUT</a> </li>
+            <li><a href="../html/course.html" class="hover-link">COURSE</a> </li>
+            <li><a href="../html/blog.html" class="hover-link">BLOG</a> </li>
+            <li><a href="../html/contact.html" class="hover-link">CONTACT</a> </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </div>
+    </nav>
+    <h1>About Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsum repudiandae in eos ut rem provident soluta
+      corporis veritatis. <br> Debitis quidem quibusdam assumenda est corrupti praesentium numquam ipsa animi quia
+    </p>
+  </div>
+
+  <!-- about us content -->
+
+  <section class="about-us">
+    <div class="row flex">
+      <div class="about-col">
+        <h1> We are the world largest university </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque quisquam voluptate perspiciatis ipsam
+          alias perferendis dolores Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore laborum eaque
+          sed inventore voluptatibus quaerat magnam itaque, facilis labore? Deleniti voluptatum iusto possimus eaque
+          accusantium, earum quibusdam recusandae architecto.</p>
+        <a href="#" class="secondary-button red-btn">Expore now</a>
+      </div>
+      <div class="about-col">
+        <img src="../asset/about.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer  -->
+
+  <section class="footer">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, optio quia voluptates voluptatibus totam
+      adipisci,<br> cupiditate rem dolorem ullam velit eum enim ipsa! Aperiam, hic magnam? Magni adipisci tempore ipsam?
+    </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+      <p>Made with <i class="fa fa-heart-o"></i>Myself </p>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    var navlinks = document.getElementById("nav-links");
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+    function hiddenMenu() {
+      navlinks.style.right = "-200px"
+    }
+  </script>
+
+</body>
+
+</html>
